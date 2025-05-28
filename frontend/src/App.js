@@ -40,7 +40,7 @@ function App() {
             {userInfo ? (
               <Link to="/profile">{userInfo.name}</Link>
             ) : (
-              <Link to="/signin">Iniciar secion</Link>
+              <Link to="/signin">Iniciar sesión</Link>
             )}
             {userInfo && userInfo.isAdmin && (
               <div className="dropdown">
