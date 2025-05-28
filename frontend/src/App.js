@@ -87,7 +87,7 @@ function App() {
             <Route path="/" exact={true} component={HomeScreen} />
           </div>
         </main>
-        <footer className="footer">Magdiel Dominguez Arias, derechos reservados</footer>
+        <footer className="footer">Green Market, Derechos Reservados©,2025.</footer>
       </div>
     </BrowserRouter>
   );
